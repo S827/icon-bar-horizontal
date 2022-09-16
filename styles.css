@@ -1,0 +1,23 @@
+.icon-bar-horizontal {
+    width: 100%;/* give full width  */
+    background-color: #777; /* give background color */
+    overflow: auto;/* overflow due to float */
+}
+
+.icon-bar-horizontal a {
+    float:left;/* Float links side by side */
+    text-align:center;/* center align text */
+    width: 20%;/* Equal width 5 icons with 20% width each = 100% */
+    padding: 12px 0;/* some top and bottom padding */
+    transition: all 0.3s ease;/* Add transition for hover effects */
+    color:white;/* white text color */
+    font-size: 36px;/* increased font size */
+}
+
+.icon-bar-horizontal a:hover {
+    background-color:blueviolet; /* add hover bg color */
+}
+
+.active {
+    background-color: blanchedalmond;/* Add active color */
+}
